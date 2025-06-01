@@ -2,3 +2,43 @@
     margin: 0;
     padding: 0;
 }
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    background-color: #555555;
+    padding: 5px 10px;
+}
+
+.title {
+    grid-row: 1;
+    grid-column: span 6;
+}
+
+.tagline {
+    grid-row: 2;
+    grid-column: span 6;
+}
+
+.navigation {
+    display: grid;
+    grid-row: 1 / span 2;
+    grid-column: 11 / span 2;
+    align-content: center;
+    justify-items: end;
+
+}
+
+.link {
+    align-self: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 15px;
+    background-color: #dddddd;
+    padding: 5px 10px;
+}
