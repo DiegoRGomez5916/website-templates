@@ -2,16 +2,17 @@
 <html>
     <head>
         <title>[Shop Name]</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <img>
-            <div>
-                <input type="text">
-                <button>search</button>
+        <header class="header">
+            <img src="images/logo.svg" class="logo">
+            <div class="search-bar">
+                <input type="text" name="search" class="text-box">
+                <button class="search-button">search</button>
             </div>
-            <button>login</button>
-            <div>
+            <button class="login-button">login</button>
+            <div class="category-container">
                 <button>category 1</button>
                 <button>category 2</button>
                 <button>category 3</button>
@@ -20,10 +21,10 @@
                 <button>category 6</button>
             </div>
         </header>
-        <main>
+        <main class="main">
             <div>
             </div>
-            <div>
+            <div class="product-grid">
                 <article>
                     <h1>[name]</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -66,8 +67,8 @@
                 </article>
             </div>
         </main>
-        <footer>
-            <p>Copyright © 2025</p>
+        <footer class="footer">
+            <p class="copyright">Copyright © 2025</p>
         </footer>
     </body>
 </html>
